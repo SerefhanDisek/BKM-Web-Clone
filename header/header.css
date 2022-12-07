@@ -54,6 +54,19 @@ body{
     padding-left: 5px;
     font-size: 17px;
 }
+.map div{
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+.map div span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+}
+.map div span{
+    font-weight: bold;
+}
 
 
 
