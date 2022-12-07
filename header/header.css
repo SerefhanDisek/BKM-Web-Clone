@@ -23,8 +23,42 @@ body{
 }
 .first img{
     width: 130px;
-    margin: 0 10px;
+    margin: 0 130px;
     padding: 5px 10px;
-    border: 1px solid;
+    border: 1px solid transparent;
     border-radius: 3px;
 }
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex span,i{
+    color: white;
+}
+.logo {
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.map{
+    border: 1px solid transparent;
+    border-radius: 3px;
+} 
+.map i{
+    margin-top: 17px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+
+
+
+    
+
+
+
